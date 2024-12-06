@@ -20,7 +20,7 @@ Check the Doc here:
 | Nama                            | NIM       | GitHub Username |
 | ------------------------------- | --------- | --------------- |
 | Handayogi Tambunan              | 121140114 | handayogi       |
-| Yanto Pernando Halomoan Hutapea | 121140127 | hahahahah       |
+| Yanto Pernando Halomoan Hutapea | 121140127 | yanto1988       |
 
 <a href="https://github.com/handayogi/Drawing-with-Hands/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=handayogi/Drawing-with-Hands" alt="contrib.rocks image" />
