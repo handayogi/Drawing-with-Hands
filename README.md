@@ -27,3 +27,7 @@ Check the Doc here:
 </a>
 
 ## Logbook
+| Date | Project Progress and Updates |
+| ---- | ---------------------------- |
+
+## Installation
