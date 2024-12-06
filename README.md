@@ -23,6 +23,7 @@ Check the Doc here:
 | Yanto Pernando Halomoan Hutapea | 121140127 | yanto1988       |
 
 <a href="https://github.com/handayogi/Drawing-with-Hands/graphs/contributors">
+  <a href="https://github.com/yanto1988/Drawing-with-Hands/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=handayogi/Drawing-with-Hands" alt="contrib.rocks image" />
 </a>
 
