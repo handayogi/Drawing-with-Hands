@@ -33,8 +33,6 @@ Check the Doc here:
 | Handayogi Tambunan              | 121140114 | handayogi       |
 | Yanto Pernando Halomoan Hutapea | 121140127 | hahahahah       |
 
-<br>
-
 <a href="https://github.com/handayogi/Drawing-with-Hands/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=handayogi/Drawing-with-Hands" alt="contrib.rocks image" />
 </a>
