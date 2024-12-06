@@ -31,4 +31,7 @@ Check the Doc here:
 | ---- | ---------------------------- |
 
 ## Installations
-1. Install dependencies with the following command
+1. Install dependencies with the following command.
+   ```sh
+   pip install -r requirements.txt
+   ```
