@@ -30,4 +30,5 @@ Check the Doc here:
 | Date | Project Progress and Updates |
 | ---- | ---------------------------- |
 
-## Installation
+## Installations
+1. Install dependencies with the following command
