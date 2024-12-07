@@ -17,7 +17,7 @@ Check the Doc here:
 - [NumPy](https://numpy.org/doc/)
 
 ## Contributors
-| Name                            | NIM       | GitHub Username |
+| Full Name                       | NIM       | GitHub Username |
 | ------------------------------- | --------- | --------------- |
 | Handayogi Tambunan              | 121140114 | handayogi       |
 | Yanto Pernando Halomoan Hutapea | 121140127 | yanto1988       |
