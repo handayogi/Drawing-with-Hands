@@ -28,8 +28,9 @@ Check the Doc here:
 </a>
 
 ## Logbook
-| Date | Project Progress and Updates |
-| ---- | ---------------------------- |
+| Date        | Project Progress and Updates  |
+| ----------- | ----------------------------- |
+| 11 Dec 2024 | Hand Tracking using MediaPipe |
 
 ## Installations
 1. Install dependencies with the following command.
