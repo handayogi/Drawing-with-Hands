@@ -56,3 +56,27 @@ def change_color(landmarks, curr_color):
         else:
             return (255, 255, 255)  # Kembali ke putih
     return curr_color
+
+def clear(landmarks, layer):
+
+    """Menghapus semua gambar atau garis pada lapisan jika ujung jari kelingking dan ujung ibu jari bersentuhan.
+
+    Parameter:
+        landmarks (list): Landmark tangan dari library MediaPipe.
+        layer (numpy.ndarray): Lapisan gambar atau garis yang akan dihapus.
+    
+    Return:
+        numpy.ndarray: Lapisan gambar yang telah dihapus
+    """
+    
+    # Mengambil koordinat ujung jari kelingking dan ujung ibu jari
+    pinky_tip = landmarks[mp_hands.HandLandmark.PINKY_TIP]
+    thumb_tip = landmarks[mp_hands.HandLandmark.THUMB_TIP]
+    
+    # Menghitung jarak antara jari
+    distance = np.sqrt((pinky_tip.x - thumb_tip.x) ** 2 + (pinky_tip.y - thumb_tip.y) ** 2)
+    
+    # Hapus lapisan jarak jika jarak ujung jari dibawah 0.05
+    if distance < 0.05:
+        return np.zeros_like(layer, dtype=np.uint8)
+    return layer

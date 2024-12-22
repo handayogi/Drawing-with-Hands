@@ -19,7 +19,7 @@ def main():
     curr_color = (255, 255, 255)
     
     # Program akan membuka kamera
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     _, frame = cap.read()
     graff_layer = np.zeros_like(frame, dtype=np.uint8)
     
@@ -46,6 +46,9 @@ def main():
                 
                 # Mengganti warna
                 curr_color = change_color(hand_landmarks.landmark, curr_color)
+
+                # Menghapus layer
+                graff_layer = clear(hand_landmarks.landmark, graff_layer)
                 
                 # Menggambar landmark tangan
                 mp_drawing.draw_landmarks(frame, hand_landmarks, mp_hands.HAND_CONNECTIONS)
