@@ -1,13 +1,20 @@
 import cv2
 import mediapipe as mp
 import numpy as np
-from function import mp_drawing, draw
+from function import mp_drawing, draw, change_color, clear
 
 # Inisialisasi MediaPipe
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(min_detection_confidence=0.7, min_tracking_confidence=0.2)
 
 def main():
+    
+    """Program utama untuk menggambar menggunakan gerakan tangan.
+    - Program akan membuka kamera dan mendeteksi tangan melalui MediaPipe.
+    - Memproses inputan untuk menggambar, mengganti warna, atau menghapus layer.
+    """
+    
+    # Deklarasi variabel awal
     last_pos = None
     curr_color = (255, 255, 255)
     
@@ -36,6 +43,9 @@ def main():
                 
                 # Fungsi untuk menggambar
                 last_pos = draw(graff_layer, last_pos, curr_pos, curr_color)
+                
+                # Mengganti warna
+                curr_color = change_color(hand_landmarks.landmark, curr_color)
                 
                 # Menggambar landmark tangan
                 mp_drawing.draw_landmarks(frame, hand_landmarks, mp_hands.HAND_CONNECTIONS)
