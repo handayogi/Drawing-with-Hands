@@ -28,10 +28,11 @@ Check the Doc here:
 </a>
 
 ## Logbook
-| Date & Time                   | Project Progress and Updates  |
-| ----------------------------- | ----------------------------- |
-| December 11, 2024, at 8:28 PM | Hand Tracking using MediaPipe |
-| December 22, 2024, at 3:36 AM | Drawing with index finger tip |
+| Date & Time                    | Project Progress and Updates    |
+| ------------------------------ | ------------------------------- |
+| December 11, 2024, at 08:28 PM | Hand Tracking using MediaPipe   |
+| December 22, 2024, at 03:36 AM | Drawing with index finger tip   |
+| December 22, 2024, at 10:10 PM | Line color change while drawing |
 
 ## Installations
 1. Install dependencies with the following command.
