@@ -48,8 +48,8 @@ python main.py
 
 ## Guide
 1. Drawing
-  - Move the tip of your index finger in front of the camera to draw.
-  - The program will detect the movement and draw a line on the screen based on the position of your finger.
+    - Move the tip of your index finger in front of the camera to draw.
+    - The program will detect the movement and draw a line on the screen based on the position of your finger.
 
 2. Change Color
    - Bring the tip of your ring finger and the tip of your thumb close together until they almost touch and the line color will change.
