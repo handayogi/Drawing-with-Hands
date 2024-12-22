@@ -33,9 +33,30 @@ Check the Doc here:
 | December 11, 2024, at 08:28 PM | Hand Tracking using MediaPipe   |
 | December 22, 2024, at 03:36 AM | Drawing with index finger tip   |
 | December 22, 2024, at 10:10 PM | Line color change while drawing |
+| December 23, 2024, at 01:27 AM | Clear all line on layer         |
 
 ## Installations
 1. Install dependencies with the following command.
-   ```sh
-   pip install -r requirements.txt
-   ```
+```sh
+pip install -r requirements.txt
+```
+2. Run the program with the following command in the terminal.
+```sh
+python main.py
+```
+3. The program will open the camera and display new video window.
+
+## Guide
+1. Drawing
+  - Move the tip of your index finger in front of the camera to draw.
+  - The program will detect the movement and draw a line on the screen based on the position of your finger.
+
+2. Change Color
+   - Bring the tip of your ring finger and the tip of your thumb close together until they almost touch and the line color will change.
+
+3. Clear Draw
+   - Bring the tip of your little finger and the tip of your thumb close together until they almost touch.
+   - The entire image layer will be erased, returning it to a blank state.
+     
+4. Close Program
+   - Press the q key on the keyboard to exit the program.
