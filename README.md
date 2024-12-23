@@ -8,8 +8,19 @@ to change the line color and erase drawings using specific hand gestures. It off
 
 ## Library explanation:
 - `Open Source Computer Vision Library (OpenCV)` is an open-source library that use for image and video processing.  
+In this project, OpenCV is used to:
+  - Read input from the camera in real-time.
+  - Draw lines on video frames (`cv2.line` function).
+  - Display the final result with a combination of image layers and original video (`cv2.imshow` and `cv2.addWeighted` function).
+  - Handle image manipulation such as color conversion from BGR to RGB.
 - `MediaPipe` is a library framework used for AI-based multimedia data processing solutions such as hand, face, and body detection.  
+In this project, MediaPipe is used to:
+  - Identify hands positions and landmarks in real-time.
+  - Find specific landmarks such as the tip of the thumb, index finger, ring finger, and pinky finger.
 - `NumPy` is a library for efficient numerical computation.  
+In this project, NumPy is used to:
+  - Create an empty image layer (`np.zeros_like` function).
+  - Manipulate an image array to ensure compatibility with OpenCV.
 
 Check the Doc here:
 - [OpenCV](https://docs.opencv.org/4.x/)
