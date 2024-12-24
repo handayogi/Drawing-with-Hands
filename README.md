@@ -45,7 +45,7 @@ Check the Doc here:
 | December 22, 2024, at 03:36 AM | Drawing with index finger tip   |
 | December 22, 2024, at 10:10 PM | Line color change while drawing |
 | December 23, 2024, at 01:27 AM | Clear all line on layer         |
-
+| December 24, 2024, at 17.45 PM | Finished report                 |
 ## Installations
 1. Install dependencies with the following command.
 ```sh
